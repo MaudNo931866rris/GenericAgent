@@ -28,6 +28,8 @@
 > We have no affiliation with any third-party website using the GenericAgent name.
 
 > 🍴 **Personal Fork Note** — I'm using this fork for learning and local experimentation. I'm primarily testing this with the Ollama + `llama3` local model setup. If you're doing the same, see the Quick Start section for tips.
+>
+> **My local setup:** Ollama running `llama3:8b` on a machine with 16GB RAM. I've found setting `num_ctx` to `4096` in the Ollama Modelfile gives a good balance between context length and speed for most agent tasks.
 
 ---
 
@@ -63,5 +65,4 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 
 | Feature | Description |
 | :--- | :--- |
-| 🧬 **Self-Evolving** | Automatically crystallizes each task into a Skill. Capabilities grow with every use, forming your personal skill tree. |
-| 🪶 **Minimal Architecture** | ~3K lines of core code. Agent Loop is ~100 lines. No compl
+| 🧬 **S
